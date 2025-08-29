@@ -1,5 +1,7 @@
+local mod = foundation.new_module("shields", "1.0.0")
+
 -- support for i18n
-local S = armor_i18n.gettext
+local S = armor.S
 
 local disable_sounds = minetest.settings:get_bool("shields_disable_sounds")
 local use_moreores = minetest.get_modpath("moreores")

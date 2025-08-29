@@ -1,5 +1,7 @@
+local mod = foundation.new_module("3d_armor_sfinv", "1.0.0")
+
 -- support for i18n
-local S = armor_i18n.gettext
+local S = armor.S
 
 if not minetest.global_exists("sfinv") then
 	minetest.log("warning", S("3d_armor_sfinv: Mod loaded but unused."))

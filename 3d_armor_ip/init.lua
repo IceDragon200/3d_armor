@@ -1,5 +1,7 @@
+local mod = foundation.new_module("3d_armor_ip", "1.0.0")
+
 -- support for i18n
-local S = armor_i18n.gettext
+local S = armor.S
 local F = minetest.formspec_escape
 
 if not minetest.global_exists("inventory_plus") then
